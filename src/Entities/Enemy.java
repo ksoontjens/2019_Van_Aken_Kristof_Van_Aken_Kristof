@@ -25,28 +25,34 @@ public class Enemy extends Entity {
 
     public Enemy(int level) {
 
-        hitPoints = 10;
-        attackPower = 5;
-        dodgeChance = 5;
+        hitPoints = 3;
+        attackPower = 2;
+        dodgeChance = 0;
 
         enemyType = enemyTypes[getRandom(enemyTypes.length)];
 
         for (int i = 0; i < level; i++) {
 
-            switch (getRandom(4)) {
+            switch (getRandom(3)) {
                 case 1:
-                    hitPoints += 2;
+                    hitPoints += 1;
                     break;
                 case 2:
-                    attackPower += 2;
+                    attackPower += 1;
                     break;
                 case 3:
-                    dodgeChance += 5;
+                    if (dodgeChance > 35) {
+                        attackPower += 1;
+                    } else {
+                        dodgeChance += 1;
+                    }
                     break;
                 default:
-                    hitPoints += 3;
+                    hitPoints += 2;
             }
         }
+
+        hitPoints += level;
     }
 
     public String encounterText() {

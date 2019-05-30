@@ -10,10 +10,11 @@ package Entities;
  */
 public class Player extends Entity {
 
-    int maxHitPoints = 12;
+    int maxHitPoints = 10;
+    int currentLevel = 1;
 
     public Player() {
-        hitPoints = 12;
+        hitPoints = 10;
         attackPower = 3;
         dodgeChance = 10;
     }
@@ -28,5 +29,25 @@ public class Player extends Entity {
         }
 
         return hitPoints;
+    }
+    
+    public void rest() {
+        hitPoints = maxHitPoints;
+    }
+    
+    public void levelUp() {
+        currentLevel++;
+        maxHitPoints += 1;
+        hitPoints += 1;
+        attackPower += 1;
+        dodgeChance += 1;
+        
+        if (dodgeChance > 35) {
+            dodgeChance = 35;
+        }
+    }
+    
+    public int getCurrentLevel() {
+        return currentLevel;
     }
 }
