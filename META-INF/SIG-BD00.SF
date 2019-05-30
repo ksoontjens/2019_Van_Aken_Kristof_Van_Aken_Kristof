@@ -1,10 +1,16 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: 0nxljH8Ka8OHqHlv+3xXDqC2j/8=
+SHA1-Digest-Manifest: VCDsRFzFYkmvAWPyWbOOW7Sbp/A=
 
 Name: hellotvxlet/HelloTVXlet$1.class
 SHA1-Digest: jL4rl+dtvgbj4VErj8qjkXfGCe4=
+
+Name: Entities/Entity.class
+SHA1-Digest: 6csZHpX1b6AD5st7vyslNyq7Cq0=
+
+Name: Entities/Player.class
+SHA1-Digest: Zte0FMyGYU/HFgoj5o3d25PwVMA=
 
 Name: hellotvxlet/Achtergrond.class
 SHA1-Digest: uDzCQUCla8UZWgyPMg4ArD75/BQ=
@@ -16,10 +22,10 @@ Name: hellotvxlet/Sprite.class
 SHA1-Digest: PD5WtjH8uxfxPcdthUytIC5yJpE=
 
 Name: Entities/Enemy.class
-SHA1-Digest: 8g/oANOJtv7wMhqIPL4N4fhwl2Y=
+SHA1-Digest: V2EVoERFBWmHxbXviN2C/vatYL0=
 
 Name: hellotvxlet/HelloTVXlet.class
-SHA1-Digest: RcoOggc+fF0cjv0r8JZATNbD71M=
+SHA1-Digest: 6drhQwb+mbCX1s/0Xr3D7tJKgOk=
 
 Name: hellotvxlet/Leefbaar.class
 SHA1-Digest: PjfAsu/AxLe8U9q+YcGe5/v+E0M=
@@ -36,9 +42,9 @@ SHA1-Digest: duVa8mXLAzlVmQWCOVivGBeaDtY=
 Name: hellotvxlet/images/forest1.jpg
 SHA1-Digest: xxUzXPrDYKdNvD+kCzBICoyJkSQ=
 
-Name: hellotvxlet/MijnTimerTask.class
-SHA1-Digest: MnIwBvFu81NSOYBuVKD+UTBwclk=
-
 Name: hellotvxlet/dataObjects/MainMenu.class
 SHA1-Digest: 0apdHjz4Lq1ZW8H6fzAOu9UFv7Q=
+
+Name: hellotvxlet/MijnTimerTask.class
+SHA1-Digest: MnIwBvFu81NSOYBuVKD+UTBwclk=
 

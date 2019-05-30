@@ -11,14 +11,13 @@ package Entities;
 public class Enemy extends Entity {
 
     String[] enemyTypes = {
-        " Goblin",
+        "Goblin",
         "Hobgoblin",
         "Bandit",
         "Naga",
         "Boar",
         "Bear",
         "Wizard",
-        "n Adventurer",
         "Zombie",
         "Werewolf"
     };
@@ -27,9 +26,8 @@ public class Enemy extends Entity {
     public Enemy(int level) {
 
         hitPoints = 10;
-        attackPower = 2;
+        attackPower = 5;
         dodgeChance = 5;
-        critChance = 5;
 
         enemyType = enemyTypes[getRandom(enemyTypes.length)];
 
@@ -45,9 +43,6 @@ public class Enemy extends Entity {
                 case 3:
                     dodgeChance += 5;
                     break;
-                case 4:
-                    critChance += 5;
-                    break;
                 default:
                     hitPoints += 3;
             }
@@ -56,5 +51,9 @@ public class Enemy extends Entity {
 
     public String encounterText() {
         return "You have encountered a " + enemyType + ". Attack!";
+    }
+    
+    public String getEnemyType() {
+        return enemyType;
     }
 }

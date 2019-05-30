@@ -13,7 +13,6 @@ public class Entity {
     int hitPoints;
     int attackPower;
     int dodgeChance;
-    int critChance;
 
     public int attack() {
         return getRandom(attackPower);
@@ -21,13 +20,13 @@ public class Entity {
 
     public int takeHit(int damage) {
         if (getRandom(100) > dodgeChance) {
-            if (getRandom(100) > critChance) {
-                hitPoints -= getRandom(attackPower) * 2;
-            } else {
-                hitPoints -= getRandom(attackPower);
-            }
+            hitPoints -= getRandom(attackPower);
         }
 
+        return hitPoints;
+    }
+
+    public int getCurrentHp() {
         return hitPoints;
     }
 
