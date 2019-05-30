@@ -52,7 +52,7 @@ public class Enemy extends Entity {
     public String encounterText() {
         return "You have encountered a " + enemyType + ". Attack!";
     }
-    
+
     public String getEnemyType() {
         return enemyType;
     }

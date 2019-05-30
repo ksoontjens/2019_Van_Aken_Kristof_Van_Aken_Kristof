@@ -1,16 +1,16 @@
 Signature-Version: 1.0
 Created-By: 1.6.0_16 (Sun Microsystems Inc.)
 BDJ-Signature-Version: 1.0
-SHA1-Digest-Manifest: VCDsRFzFYkmvAWPyWbOOW7Sbp/A=
+SHA1-Digest-Manifest: pniSPj3I9LcWKdD9SzOhrqxDeiQ=
 
 Name: hellotvxlet/HelloTVXlet$1.class
 SHA1-Digest: jL4rl+dtvgbj4VErj8qjkXfGCe4=
 
 Name: Entities/Entity.class
-SHA1-Digest: 6csZHpX1b6AD5st7vyslNyq7Cq0=
+SHA1-Digest: BVMZJ7GSQTrb1q3hVJsThVxdX8I=
 
 Name: Entities/Player.class
-SHA1-Digest: Zte0FMyGYU/HFgoj5o3d25PwVMA=
+SHA1-Digest: gykuMDzBfL0VAC+wxwbO+p+R3hg=
 
 Name: hellotvxlet/Achtergrond.class
 SHA1-Digest: uDzCQUCla8UZWgyPMg4ArD75/BQ=
@@ -25,7 +25,7 @@ Name: Entities/Enemy.class
 SHA1-Digest: V2EVoERFBWmHxbXviN2C/vatYL0=
 
 Name: hellotvxlet/HelloTVXlet.class
-SHA1-Digest: 6drhQwb+mbCX1s/0Xr3D7tJKgOk=
+SHA1-Digest: q3rG4sOlDqXFvweodmjEo49vA0c=
 
 Name: hellotvxlet/Leefbaar.class
 SHA1-Digest: PjfAsu/AxLe8U9q+YcGe5/v+E0M=

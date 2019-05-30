@@ -20,7 +20,7 @@ public class Entity {
 
     public int takeHit(int damage) {
         if (getRandom(100) > dodgeChance) {
-            hitPoints -= getRandom(attackPower);
+            hitPoints -= damage;
         }
 
         return hitPoints;
